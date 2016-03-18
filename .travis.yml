@@ -11,7 +11,7 @@ deploy:
   provider: s3
   access_key_id: AKIAJRG6MBP2YO7UWGCA
   secret_access_key:
-    secure: WKZ/ZMcz33+qgAwF+rr9gcTas4eP/7xCXc6hkH8BeGi+xXdz0VHpNGuOXvg44THPWhzuz0f6jBnsN2v3WCwqk9V//YZp4T+eSYKCph8YLSDQHyhdSGeCSFsfwxTe3kGn2HQ5Jm5Noi0wNlmvKbSk+VVn1nhClFCWPMWOQxO7vNdbhabmoZORxOkOWiuxqwAW1Mf4CHsbECY2YPGkovY+RO6kA/egPNMWedVfnScTDjVq4Tlvnu4YFMNlO0I+v90Bs1pOGxtrE7Q3zNR7nc4hX2hg4MIfA6FDYMoYQDlW1QToyRQ2lKihrSN8QxYHY/s/EgmoZo0E0w7UmtG/IWuAX8mQVtm21AAqGrZpLmeAMEChjx3U55HGFTPKiCVBWhlNct8YwPrplpKoBcvsykTUVWFQ6Dcxrkm75alSgCoFtgEVzxoZYi7/8ILa5Pyh9Wbal5LDyisI8/d5eBcAef943hyTe/jw5hyRxX7ObHavnOvRg2/NNYdJd2HGFimyUkZcZDUdIYpFlgN5ufNLhfS1SbHG3v342xTEmm4EVUny4UDUejo7EUmSxwoOuHM6/OI3dsFj8jJ4wsiaHZbFRF4KkJiLTKjGb2SAXKpIgCiY7aQpdbcxtvSCQBLfNyYobc26xLoFqhe0woAJHxnf+JgkZIjdw/5PH0Ol0VSCtWNenQs=
+    secure: oz7YOzJ++jJ/sfbp7dKczlSXBOaQCYntVzPkLISNvCnS3s0HElR0TwNzn7HNmxfwf0jlrtuUgl4jnOARHFHmaw7+i02OirDuhPVLtbMuPjN9IIJ3Z1MvBE/Baqo5PqNPLYWepkuUQVC2FAlu2LVk0K9EKpSNFu81DYJBNQSuGdnYg5NytXXjNrESjxC7UNXQ+DPnLFKOLEwCOFA6kjKAOogms4iOMxOgtdNrzwHeD+aiWwdWIqHz91NYWAflP/b4bFMyl6gX4FCNBkqGcW/h7r7C9EiDZwzC03o8Lv/GPnC1z/gxfQ4YENt69Oir+p4IoUdBd5exgM9AaMST7QSp1OLwEvMo2534SYA2ugSPhFg6SqY5uu9jFutTGqnQZKKhXWa+xnxoxPXmqu4B84szy3kY6SrNWfxCFBaAn31Ocoxlb6CHqfCapIpW8Tk8gJQSv5zjRmA/1mMw3W4bTxETodYd/MjiNTkDYlyDXEc1xtpKRGsEPC67kr8tO+UZRNtsyaLncaRDXjSofIchIaqcptrcdUDB+YAAqiabtoGD/i6FUSOdPYmBtTy97Pym6wN0yS1DN/VR3JdhFrmoz/iJxPK706v75bgzYB/vXr4ohKVIiyqkVquLtnQVEAH+rld1+aOcopvToyqyRzn/tElIbiRE3TCvdo8kdyZ0o7EBu+g=
   bucket: aktrail.org
   region: us-west-2
   skip_cleanup: true
@@ -22,6 +22,6 @@ deploy:
 notifications:
   email:
     recipients:
-      - javier.botero@gmail.com
+    - javier.botero@gmail.com
     on_success: always
     on_failure: always

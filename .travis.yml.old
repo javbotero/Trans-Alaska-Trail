@@ -1,0 +1,27 @@
+language: ruby
+rvm:
+- 2.2.2
+before_script:
+- chmod +x ./script/cibuild
+script: "./script/cibuild"
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+deploy:
+  provider: s3
+  access_key_id: AKIAJRG6MBP2YO7UWGCA
+  secret_access_key:
+    secure: oz7YOzJ++jJ/sfbp7dKczlSXBOaQCYntVzPkLISNvCnS3s0HElR0TwNzn7HNmxfwf0jlrtuUgl4jnOARHFHmaw7+i02OirDuhPVLtbMuPjN9IIJ3Z1MvBE/Baqo5PqNPLYWepkuUQVC2FAlu2LVk0K9EKpSNFu81DYJBNQSuGdnYg5NytXXjNrESjxC7UNXQ+DPnLFKOLEwCOFA6kjKAOogms4iOMxOgtdNrzwHeD+aiWwdWIqHz91NYWAflP/b4bFMyl6gX4FCNBkqGcW/h7r7C9EiDZwzC03o8Lv/GPnC1z/gxfQ4YENt69Oir+p4IoUdBd5exgM9AaMST7QSp1OLwEvMo2534SYA2ugSPhFg6SqY5uu9jFutTGqnQZKKhXWa+xnxoxPXmqu4B84szy3kY6SrNWfxCFBaAn31Ocoxlb6CHqfCapIpW8Tk8gJQSv5zjRmA/1mMw3W4bTxETodYd/MjiNTkDYlyDXEc1xtpKRGsEPC67kr8tO+UZRNtsyaLncaRDXjSofIchIaqcptrcdUDB+YAAqiabtoGD/i6FUSOdPYmBtTy97Pym6wN0yS1DN/VR3JdhFrmoz/iJxPK706v75bgzYB/vXr4ohKVIiyqkVquLtnQVEAH+rld1+aOcopvToyqyRzn/tElIbiRE3TCvdo8kdyZ0o7EBu+g=
+  bucket: aktrail.org
+  region: us-west-2
+  skip_cleanup: true
+  local-dir: _site
+  acl: public_read
+  on:
+    repo: javbotero/Trans-Alaska-Trail
+notifications:
+  email:
+    recipients:
+    - javier.botero@gmail.com
+    on_success: always
+    on_failure: always

@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Trans-Alaska Trail
+email: jonathan.kt@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Website for the Trans-Alaska Trail project.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://aktrail.org" # the base hostname & protocol for your site
+assetsurl: "https://s3-us-west-2.amazonaws.com/aktrail.org-assets/"
+imagesurl: "https://s3-us-west-2.amazonaws.com/aktrail.org-assets/images/"
+#twitter_username: jekyllrb
+github_username:  javbotero
+
+# Build settings
+markdown: kramdown
+exclude: [vendor] # For travis: http://jekyllrb.com/docs/continuous-integration/

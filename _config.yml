@@ -15,9 +15,15 @@ url: "http://aktrail.org" # the base hostname & protocol for your site
 assetsurl: "https://s3-us-west-2.amazonaws.com/aktrail.org-assets/"
 # imagesurl: "https://s3-us-west-2.amazonaws.com/aktrail.org-assets/images/"
 imagesurl: "/images/"
-collections:
-  pages:
-    output: true
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      imageheight: 300px
+      layout: default
+
+
 #twitter_username: jekyllrb
 github_username:  javbotero
 

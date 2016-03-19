@@ -1,3 +1,3 @@
-# Summer in Sitka
+# Trans-Alaska Trail
 
-This is the website at [http://summerinsitka.com](http://summerinsitka.com).
+This is the website at [http://aktrail.org](http://aktrail.org).

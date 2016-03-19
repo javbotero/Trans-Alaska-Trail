@@ -8,7 +8,9 @@
     {% include header.html %}
 
     <div class="page-content">
+      <div id="image" style="background-image:url({{page.image | prepend: site.imagesurl}});"></div>
       <div class="wrapper">
+        <h2 class="page-title">{{page.subhead}}</h2>
         {{ content }}
       </div>
     </div>

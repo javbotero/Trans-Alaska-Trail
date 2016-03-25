@@ -54,5 +54,6 @@ $logo:             url({{ "logo.png" | prepend: site.imagesurl }});
 @import
         "basic",
         "header",
+        "footer",
         "page"
 ;

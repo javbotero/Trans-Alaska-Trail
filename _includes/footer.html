@@ -1,0 +1,12 @@
+<div id="footer">
+  <div id="footer-menu">
+    {% assign links = site.html_pages | where: "footer", "true" | sort: "order" %}
+    {% for link in links %}
+    {% if link.url == page.url %}
+    <a class="active" href="{{link.url}}">{{ link.title }}</a>
+    {% else %}
+    <a href="{{link.url}}">{{ link.title }}</a>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>

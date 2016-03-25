@@ -2,19 +2,21 @@
 layout: default
 title: Documents
 menu: true
-order: 4
-image: keystone.jpg
+order: 3
+image: bridge.jpg
 imageheight: 500px
 subhead: Documents
 ---
-{% for doc in site.data.docs %}
-<div class="documents">
-  <a href="{{doc.url | prepend: site.assetsurl}}">
-    <div class="doc-image" style="background-image:url({{doc.img | prepend: site.imagesurl}});">
-    </div>
-    <p>
-      {{doc.name}}
-    </p>
-  </a>
+<div id="doc-container">
+  {% for doc in site.data.docs %}
+  <div class="documents">
+    <a href="{{doc.url | prepend: site.assetsurl}}">
+      <div class="doc-image" style="background-image:url({{doc.img | prepend: site.imagesurl}});">
+      </div>
+      <p>
+        {{doc.name}}
+      </p>
+    </a>
+  </div>
+  {% endfor %}
 </div>
-{% endfor %}

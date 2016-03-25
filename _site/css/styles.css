@@ -2,11 +2,18 @@ body {
   margin: 0px;
   font-family: "Open Sans", sans-serif; }
 
+h1 {
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+  font-size: 35pt;
+  text-transform: uppercase; }
+
 h2 {
   font-weight: 300;
   font-family: "Open Sans", sans-serif;
-  font-size: 3em;
-  text-transform: uppercase; }
+  font-size: 22pt;
+  text-transform: uppercase;
+  margin-bottom: -10px; }
 
 h3 {
   font-weight: 400;
@@ -14,6 +21,12 @@ h3 {
   font-size: 17pt;
   text-align: center;
   margin: 30px 0; }
+
+h4 {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15pt;
+  margin-bottom: -10px; }
 
 .wrapper {
   max-width: 700px;
@@ -25,10 +38,6 @@ h3 {
 .wrapper p {
   font-size: 13pt; }
 
-@media screen and (max-width: 600px) {
-  .wrapper {
-    padding-right: 15px;
-    padding-left: 15px; } }
 #header {
   background: #fff;
   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5);
@@ -50,15 +59,15 @@ h3 {
     font-weight: 300;
     font-size: 1.3em;
     text-decoration: none;
-    border: 1px solid #fff; }
+    border: 1px solid #fff;
+    border-radius: 5px; }
     #nav a:hover {
-      /*
-      background: repeating-linear-gradient(
+      /*background: repeating-linear-gradient(
         45deg,
-        rgba(0,0,0,0),
-        rgba(0,0,0,0) 5px,
+        rgba(0,174,239,0.2),
         rgba(0,174,239,0.2) 5px,
-        rgba(0,174,239,0.2) 10px
+        rgba(0,174,239,0.1) 5px,
+        rgba(0,174,239,0.1) 10px
       );*/
       border: 1px dashed #00aeef;
       background: rgba(0, 174, 239, 0.1);
@@ -92,8 +101,7 @@ h3 {
   text-transform: uppercase; }
 
 .page-content {
-  width: 100%;
-  text-align: center; }
+  width: 100%; }
 
 #image {
   height: 500px;
@@ -105,17 +113,23 @@ h3 {
   text-align: center;
   margin: 10px 0px; }
 
+#doc-container {
+  text-align: center; }
+
 .documents {
   display: inline-block;
   text-align: center;
   margin: 20px;
   vertical-align: top;
   box-shadow: 0px 0px 3px 1px #999;
+  border: 1px solid #000;
   border-radius: 5px;
   overflow: hidden; }
   .documents:hover {
     background: #ccc;
-    box-shadow: 0px 0px 3px 3px #999; }
+    box-shadow: 0px 0px 5px 3px #999;
+    border: 1px dashed #00aeef;
+    background: rgba(0, 174, 239, 0.3); }
   .documents a {
     text-decoration: none;
     color: black;

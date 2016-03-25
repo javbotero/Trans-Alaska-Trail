@@ -1,6 +1,5 @@
 .page-content{
   width:100%;
-  text-align: center;
 }
 
 #image{
@@ -15,18 +14,25 @@
   margin: 10px 0px;
 }
 
+#doc-container{
+  text-align: center;
+}
+
 .documents{
   display: inline-block;
   text-align: center;
   margin: 20px;
   vertical-align: top;
   box-shadow: 0px 0px 3px 1px #999;
+  border: 1px solid #000;
   border-radius: 5px;
   overflow: hidden;
 
   &:hover{
     background: #ccc;
-    box-shadow: 0px 0px 3px 3px #999;
+    box-shadow: 0px 0px 5px 3px #999;
+    border: 1px dashed rgb(0,174,239);
+    background: rgba(0,174,239,0.3);
   }
 
   a{

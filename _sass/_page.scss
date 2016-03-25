@@ -1,12 +1,12 @@
 .page-content{
-  padding-top: $header-outerheight;
   width:100%;
 }
 
 #image{
   height: 500px;
-  background-position: center 20%;
+  background-position: center center;
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .page-title{

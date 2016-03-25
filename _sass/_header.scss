@@ -29,15 +29,21 @@
     font-weight: 300;
     font-size: 1.3em;
     text-decoration: none;
+    border:1px solid #fff;
 
     &:hover{
+      /*
       background: repeating-linear-gradient(
-  45deg,
-  rgba(0,0,0,0),
-  rgba(0,0,0,0) 5px,
-  rgba(0,0,0,0.1) 5px,
-  rgba(0,0,0,0.1) 10px
-);
+        45deg,
+        rgba(0,0,0,0),
+        rgba(0,0,0,0) 5px,
+        rgba(0,174,239,0.2) 5px,
+        rgba(0,174,239,0.2) 10px
+      );*/
+
+      border:1px dashed rgb(0, 174, 239);
+      background: rgba(0, 174, 239, 0.1);
+
       color: #000;
       text-decoration: none;
     }

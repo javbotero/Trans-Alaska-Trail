@@ -7,3 +7,14 @@ image: keystone.jpg
 imageheight: 500px
 subhead: Documents
 ---
+{% for doc in site.data.docs %}
+<div class="documents">
+  <a href="{{doc.url | prepend: site.assetsurl}}">
+    <div class="doc-image" style="background-image:url({{doc.img | prepend: site.imagesurl}});">
+    </div>
+    <p>
+      {{doc.name}}
+    </p>
+  </a>
+</div>
+{% endfor %}

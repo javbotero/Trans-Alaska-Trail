@@ -28,10 +28,8 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-//header
-$header-innerheight:    70px;
-$header-vpad:           10px;
-$header-outerheight:    $header-innerheight + 2 * $header-vpad;
+//footer
+$footer-height:    100px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {

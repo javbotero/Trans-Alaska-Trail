@@ -1,4 +1,8 @@
+html {
+  height: 100%; //Sticky footer
+}
 body{
+  height: 100%; //Sticky footer
   margin: 0px;
   font-family: "Open Sans", sans-serif;
 }
@@ -43,4 +47,10 @@ h4{
 
 .wrapper p{
   font-size: 13pt;
+}
+
+.page-content{
+  min-height: 100%; //Sticky footer
+  margin: 0 auto;
+  margin-bottom: -$footer-height; //Sticky footer
 }

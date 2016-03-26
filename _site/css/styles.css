@@ -1,4 +1,8 @@
+html {
+  height: 100%; }
+
 body {
+  height: 100%;
   margin: 0px;
   font-family: "Open Sans", sans-serif; }
 
@@ -37,6 +41,11 @@ h4 {
 
 .wrapper p {
   font-size: 13pt; }
+
+.page-content {
+  min-height: 100%;
+  margin: 0 auto;
+  margin-bottom: -100px; }
 
 #header {
   background: #fff;
@@ -101,17 +110,24 @@ h4 {
 
 #footer {
   background: #000; }
-  #footer a {
-    color: white;
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none; }
-    #footer a:hover {
-      background: #444; }
+  #footer .menu {
+    padding-top: 10px;
+    margin-left: 30px; }
+    #footer .menu a {
+      color: white;
+      padding: 5px 15px;
+      margin: 0;
+      text-decoration: none;
+      text-transform: uppercase; }
+      #footer .menu a:hover {
+        text-decoration: underline;
+        color: #00aeef; }
+
+#footer, #push {
+  height: 100px; }
 
 .page-content {
-  width: 100%;
-  margin-bottom: 30px; }
+  width: 100%; }
 
 #image {
   height: 500px;

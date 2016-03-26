@@ -1,16 +1,25 @@
 #footer{
   background: #000;
 
+  .menu{
+    padding-top: 10px;
+    margin-left: 30px;
 
-  a{
-      color: white;
-      display: inline-block;
-      padding: 10px;
-      text-decoration: none;
+    a{
+        color: white;
+        padding: 5px 15px;
+        margin: 0;
+        text-decoration: none;
+        text-transform: uppercase;
 
-      &:hover{
-        background: #444;
-      }
+        &:hover{
+          text-decoration: underline;
+          color: #00aeef;
+        }
+    }
   }
+}
 
+#footer, #push{
+  height: $footer-height; //sticky footer
 }

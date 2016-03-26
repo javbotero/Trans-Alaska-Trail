@@ -22,7 +22,7 @@ defaults:
     scope:
       path: ""
     values:
-      imageheight: 300px
+      vpos: 50%
       layout: default
 
 

@@ -1,0 +1,5 @@
+<div id="image" style="background-position: center {{page.vpos}}; background-image:url({{page.image | prepend: site.imagesurl}});">
+  {% if page.image-credit %}
+    <p>Photo Credit: {{page.image-credit}}</p>
+  {% endif %}
+</div>

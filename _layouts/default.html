@@ -8,7 +8,7 @@
     {% include header.html %}
 
     <div class="page-content">
-      <div id="image" style="height: {{page.imageheight}}; background-image:url({{page.image | prepend: site.imagesurl}});"></div>
+      {% include image.html %}
       <div class="wrapper">
         <h1 class="page-title">{{page.subhead}}</h1>
         {{ content }}

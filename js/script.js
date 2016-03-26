@@ -1,5 +1,5 @@
 $(function(){
-  var initial = parseInt($("#nav a").css("padding-top"));
+  var initial = 25;
   $( window ).scroll(function(){
     var scroll = $(window).scrollTop();
     var padding = initial - Math.floor(scroll / 4);

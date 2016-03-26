@@ -52,7 +52,7 @@ h4 {
   text-align: right;
   margin-right: 20px; }
   #nav a {
-    padding: 20px;
+    padding: 25px 15px;
     display: inline-block;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;

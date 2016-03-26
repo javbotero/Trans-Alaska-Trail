@@ -98,7 +98,8 @@ h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 1.5em;
   font-weight: 300;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: black; }
 
 #footer {
   background: #000; }

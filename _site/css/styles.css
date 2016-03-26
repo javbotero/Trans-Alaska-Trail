@@ -32,12 +32,18 @@ h4 {
   font-size: 15pt;
   margin-bottom: -10px; }
 
+li {
+  font-size: 13pt;
+  font-family: "Open Sans", sans-serif;
+  margin: 10px 0px; }
+
 .wrapper {
   max-width: 700px;
   padding: 0px 30px;
   margin: 0 auto;
   background: #fff;
-  font-weight: 300; }
+  font-weight: 300;
+  margin-bottom: 40px; }
 
 .wrapper p {
   font-size: 13pt; }
@@ -141,10 +147,10 @@ h4 {
     position: absolute;
     display: block;
     font-size: 10pt;
-    color: #000;
+    color: #fff;
     right: 10px;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.7);
+    background: #000;
     margin: 0px;
     padding: 5px; }
 
@@ -187,7 +193,5 @@ h4 {
       text-align: center;
       margin: 0; }
 
-#subscribe {
-  height: 400px;
-  text-align: center;
-  background: #aaa; }
+.form {
+  width: 100%; }

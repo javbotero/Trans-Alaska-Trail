@@ -14,10 +14,10 @@
     position:absolute;
     display:block;
     font-size: 10pt;
-    color: #000;
+    color: #fff;
     right: 10px;
     bottom: 0;
-    background:rgba(255,255,255,0.7);
+    background:#000;
     margin: 0px;
     padding: 5px;
   }
@@ -73,8 +73,6 @@
   }
 }
 
-#subscribe{
-  height: 400px;
-  text-align: center;
-  background: #aaa;
+.form{
+  width: 100%;
 }

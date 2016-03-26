@@ -33,9 +33,6 @@ $header-innerheight:    70px;
 $header-vpad:           10px;
 $header-outerheight:    $header-innerheight + 2 * $header-vpad;
 
-//Assets
-$logo:             url({{ "logo.png" | prepend: site.imagesurl }});
-
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {

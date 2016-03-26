@@ -84,15 +84,13 @@ h4 {
   width: 400px;
   position: absolute;
   left: 20px; }
-  #branding div {
+  #branding div, #branding img {
     display: inline-block;
     vertical-align: middle; }
 
 #logo {
-  width: 120px;
-  height: 100%;
-  background: url(/images/logo.png) no-repeat center center;
-  background-size: contain; }
+  width: auto;
+  max-height: 95%; }
 
 #site-title {
   font-family: "Open Sans", sans-serif;

@@ -73,7 +73,7 @@ li {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 1.3em;
+    font-size: 16pt;
     text-decoration: none;
     border: 1px solid #fff;
     border-radius: 5px; }
@@ -97,7 +97,6 @@ li {
   background: #fff;
   height: 100%;
   text-align: left;
-  width: 400px;
   position: absolute;
   left: 20px; }
   #branding div {
@@ -114,11 +113,33 @@ li {
 
 #site-title {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.5em;
+  font-size: 20pt;
   font-weight: 300;
   text-transform: uppercase;
   color: black; }
 
+/* Small */
+@media screen and (max-width: 970px) {
+  #branding {
+    height: 100px;
+    position: relative;
+    left: 0; }
+    #branding div {
+      display: block; }
+    #branding #logo {
+      margin: auto;
+      height: 50px; }
+    #branding #site-title {
+      font-size: 15pt;
+      text-align: center; }
+
+  #nav {
+    text-align: center; }
+
+  #nav a {
+    font-size: 12pt;
+    margin: 0;
+    padding: 0px 10px; } }
 #footer {
   background: #000; }
   #footer .menu {
@@ -146,6 +167,7 @@ li {
   background-position: center center;
   background-size: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
   position: relative; }
   #image p {
     position: absolute;
@@ -199,3 +221,7 @@ li {
 
 .form {
   width: 100%; }
+
+@media screen and (max-width: 970px) {
+  h1 {
+    font-size: 30pt; } }

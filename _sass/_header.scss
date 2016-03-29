@@ -58,15 +58,19 @@
   position: absolute;
   left: 20px;
 
-  div, img{
+  div{
     display:inline-block;
     vertical-align: middle;
   }
 }
 
 #logo{
-  width:auto;
-  height: 95%;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: $logo;
+  height: 100%;
+  width: 150px;
 }
 
 #site-title{

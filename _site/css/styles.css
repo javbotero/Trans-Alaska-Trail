@@ -100,13 +100,17 @@ li {
   width: 400px;
   position: absolute;
   left: 20px; }
-  #branding div, #branding img {
+  #branding div {
     display: inline-block;
     vertical-align: middle; }
 
 #logo {
-  width: auto;
-  height: 95%; }
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(/images/logo.png);
+  height: 100%;
+  width: 150px; }
 
 #site-title {
   font-family: "Open Sans", sans-serif;

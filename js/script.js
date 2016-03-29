@@ -8,9 +8,7 @@ $(function(){
       padding = padding < 0 ? 0 : padding;
       $("#nav a").css("padding-top", padding);
       $("#nav a").css("padding-bottom", padding);
-      if (/chrom(e|ium)/.test(navigator.userAgent.toLowerCase())) {
-        imageResize();
-      }
+      imageResize();
     }
   })
 });

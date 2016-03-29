@@ -1,5 +1,4 @@
 $(function(){
-  imageResize();
   var initial = 25;
   $( window ).scroll(function(){
     if($( window ).width() > 970){

@@ -18,5 +18,5 @@ function imageResize(){
   var imgRatio = 1.75; // hardcoded; could pull this out manually on load if desired
   var imgHeight = $logoEl.css('height').replace(/px/, '');
   var newWidth = imgHeight * imgRatio;
-  $logoEl.css('width',  + 'px');
+  $logoEl.css('width', newWidth + 'px');
 }

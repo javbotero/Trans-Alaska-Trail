@@ -222,13 +222,25 @@ li {
 .form {
   width: 100%; }
 
-.collab-loc {
-  margin: 1.5em 0px; }
-  .collab-loc h1 {
-    font-size: 1em;
+.team-position {
+  margin: 15px 0px; }
+  .team-position h3 {
+    font-size: 11pt;
     margin: 0;
     font-weight: bold;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-align: left; }
+  .team-position p {
+    margin: 0; }
+
+.collab-loc {
+  margin: 1.5em 0px; }
+  .collab-loc h3 {
+    font-size: 12pt;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left; }
   .collab-loc p {
     margin: 0; }
 

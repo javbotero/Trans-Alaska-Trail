@@ -44,3 +44,12 @@ once sheltered pioneers traveling the Richardson Trail. The vision for the
 Trans-Alaska Trail will spark excitement across Alaska and the nation, serving
 as a world-class outdoor recreation destination and high-octane additive for
 Alaska’s rapidly developing adventure tourism economy.</p>
+
+<script>
+  var cookie_name = "splash";
+  var cookie = Cookies.get(cookie_name);
+  if(cookie == undefined){
+    Cookies.set(cookie_name, "true", {expires: 30, path: ''});
+    window.location = "/splash.html";
+  }
+</script>

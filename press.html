@@ -1,0 +1,23 @@
+---
+layout: default
+title: Press
+menu: true
+order: 4
+image: subscribe.jpg
+image-credit: Austin Love
+vpos: 10%
+subhead: Press
+---
+<div id="press-container">
+  {% for story in site.data.press %}
+  <div class="press-story">
+    <a href="{{story.url}}">
+      <p class="press-date">{{story.date}}</p>
+      <p class="press-title">{{story.title}}</p>
+      <p class="press-snippet">{{story.snippet}}</p>
+      <p class="press-author">by {{story.author}}</p>
+      <p class="press-source">{{story.source}}</p>
+    </a>
+  </div>
+  {% endfor %}
+</div>

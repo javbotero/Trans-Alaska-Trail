@@ -9,7 +9,7 @@ vpos: 25%
 subhead: Press
 ---
 <div id="press-container">
-  {% for story in (site.data.press | sort:"sort_date" | reverse) %}
+  {% for story in (site.data.press | sort: "sort_date") %}
   <div class="press-story">
     <a href="{{story.url}}">
       <p class="press-date">{{story.date}}</p>
